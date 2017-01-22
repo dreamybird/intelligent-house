@@ -1,0 +1,66 @@
+Language model created by QuickLM on Sun Jan 22 14:35:52 EST 2017
+Copyright (c) 1996-2010 Carnegie Mellon University and Alexander I. Rudnicky
+
+The model is in standard ARPA format, designed by Doug Paul while he was at MITRE.
+
+The code that was used to produce this language model is available in Open Source.
+Please visit http://www.speech.cs.cmu.edu/tools/ for more information
+
+The (fixed) discount mass is 0.5. The backoffs are computed using the ratio method.
+This model based on a corpus of 7 sentences and 12 words
+
+\data\
+ngram 1=12
+ngram 2=17
+ngram 3=14
+
+\1-grams:
+-0.9031 </s> -0.3010
+-0.9031 <s> -0.2430
+-1.7482 BACK -0.2430
+-1.7482 DECREASE -0.2852
+-1.7482 HI -0.2932
+-1.7482 HOUSE -0.2430
+-1.7482 INCREASE -0.2852
+-1.7482 NEXT -0.2430
+-1.7482 PLAY -0.2430
+-1.1461 RADIO -0.2688
+-1.7482 STOP -0.2430
+-1.4472 VOLUME -0.2430
+
+\2-grams:
+-1.1461 <s> DECREASE 0.0000
+-1.1461 <s> HI 0.0000
+-1.1461 <s> INCREASE 0.0000
+-0.5441 <s> RADIO 0.0000
+-0.3010 BACK </s> -0.3010
+-0.3010 DECREASE VOLUME 0.0000
+-0.3010 HI HOUSE 0.0000
+-0.3010 HOUSE </s> -0.3010
+-0.3010 INCREASE VOLUME 0.0000
+-0.3010 NEXT </s> -0.3010
+-0.3010 PLAY </s> -0.3010
+-0.9031 RADIO BACK 0.0000
+-0.9031 RADIO NEXT 0.0000
+-0.9031 RADIO PLAY 0.0000
+-0.9031 RADIO STOP 0.0000
+-0.3010 STOP </s> -0.3010
+-0.3010 VOLUME </s> -0.3010
+
+\3-grams:
+-0.3010 <s> DECREASE VOLUME
+-0.3010 <s> HI HOUSE
+-0.3010 <s> INCREASE VOLUME
+-0.9031 <s> RADIO BACK
+-0.9031 <s> RADIO NEXT
+-0.9031 <s> RADIO PLAY
+-0.9031 <s> RADIO STOP
+-0.3010 DECREASE VOLUME </s>
+-0.3010 HI HOUSE </s>
+-0.3010 INCREASE VOLUME </s>
+-0.3010 RADIO BACK </s>
+-0.3010 RADIO NEXT </s>
+-0.3010 RADIO PLAY </s>
+-0.3010 RADIO STOP </s>
+
+\end\

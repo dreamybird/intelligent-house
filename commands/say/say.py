@@ -4,7 +4,7 @@ import os
 import sys
 
 
-def say(text, lang='eng'):
+def say(text, lang='english'):
     if lang=='russian': 
 	os.system('echo \'{0}\' | festival --tts --language russian>/dev/null 2>&1'.format(text))
     else:
